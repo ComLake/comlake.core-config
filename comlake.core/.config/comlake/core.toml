@@ -1,0 +1,4 @@
+ipfs-multiaddr = "/ip4/127.0.0.1/tcp/5001"
+psql-url = "jdbc:postgresql:comlake"
+psql-user = "postgres"
+psql-passwd = "postgres"

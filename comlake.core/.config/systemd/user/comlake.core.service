@@ -3,7 +3,7 @@ Description=ComLake core server
 After=network.target
 
 [Service]
-WorkingDirectory=/home/user/core
+WorkingDirectory=%h/comlake.core
 ExecStart=/usr/bin/lein run -- reload
 Restart=on-failure
 

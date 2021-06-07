@@ -3,7 +3,7 @@ Description=IPFS daemon
 After=network.target
 
 [Service]
-ExecStart=/home/user/.local/bin/ipfs daemon
+ExecStart=%h/.local/bin/ipfs daemon
 Restart=on-failure
 
 [Install]
