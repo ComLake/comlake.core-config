@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 WorkingDirectory=%h/comlake.core
-ExecStart=/usr/bin/lein run -- reload
+ExecStart=/usr/bin/lein run
 Restart=on-failure
 
 [Install]
